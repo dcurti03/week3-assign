@@ -27,29 +27,8 @@ The **cstrchr()** function returns a pointer to the first occurrence of the char
 The **cstrcmp()**  function  compares  the two strings s1 and s2. It returns an integer less than, equal to, or greater than zero if s1 is found, respectively, to be less than, to match, or be greater than s2. The  strcmp() function returns an integer less than, equal to, or greater than zero if s1 (or the first n bytes thereof) is found, respectively, to be less than, to match, or be greater than s2.
 
 
-**ctokenize()**
-
-You are tasked with implementing a custom string tokenizer function named **ctokenize()**. The function should take a string and split it into tokens based on a given set of delimiter characters. The implementation of the tokenize() function, including the parameter list and return value, is up to you.
-
-As part of this task, you must design and explain your memory model for storing tokens and managing memory.
-
-* You must create your own implementation of a string tokenizer.
-* You are free to define the parameter list and return type of the function.
-* Ensure your function can handle multiple delimiters.
-
-Memory Management:
-
-* Explain how you allocate, manage, and free memory for the tokens.
-* Ensure the solution is robust against memory leaks.
-
-Error Handling:
-
-* Handle edge cases like empty strings, strings without delimiters, or invalid input.
-* Your function must ensure no buffer overflows or undefined behavior.
-
-Create another program named **libtest.c**, that includes the header file, **mylib.h** and tests each of the functions to ensure they are correct.
+### You cannot us ARRAY Notation[] (Except to define an array). You cannot include the <string.h> C Standard Library or use any of the functions in this library in your code
 
 
-## You cannot include the <string.h> C Standard Library or use any of the functions in this library in your code
 
 
