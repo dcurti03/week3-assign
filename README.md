@@ -30,5 +30,13 @@ The **cstrcmp()**  function  compares  the two strings s1 and s2. It returns an 
 ### You cannot us ARRAY Notation[] (Except to define an array). You cannot include the <string.h> C Standard Library or use any of the functions in this library in your code
 
 
-
+Compile your library:
+```c
+gcc -Wall -g -c mylib.c
+'''
+This will create a **mylib.o** object file. The -c stops the GCC toolchain after the Assembler before the Linker.
+```c
+gcc -Wall -g libtest.c mylib.o -o libtest
+```
+This will link your library file in your executable binary.  -Wall and -g are for generating warnings and source code for the GDB Debugger.
 
