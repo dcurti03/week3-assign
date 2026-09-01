@@ -33,7 +33,7 @@ The **cstrcmp()**  function  compares  the two strings s1 and s2. It returns an 
 Compile your library:
 ```c
 gcc -Wall -g -c mylib.c
-'''
+```
 This will create a **mylib.o** object file. The -c stops the GCC toolchain after the Assembler before the Linker.
 ```c
 gcc -Wall -g libtest.c mylib.o -o libtest
