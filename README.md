@@ -27,7 +27,7 @@ The **cstrchr()** function returns a pointer to the first occurrence of the char
 The **cstrcmp()**  function  compares  the two strings s1 and s2. It returns an integer less than, equal to, or greater than zero if s1 is found, respectively, to be less than, to match, or be greater than s2. The  strcmp() function returns an integer less than, equal to, or greater than zero if s1 (or the first n bytes thereof) is found, respectively, to be less than, to match, or be greater than s2.
 
 
-### You cannot us ARRAY Notation[] (Except to define an array). You cannot include the <string.h> C Standard Library or use any of the functions in this library in your code
+### You cannot us ARRAY Notation[ ] (Brackets), you must user POINTER Notation (Except to define an array). You cannot include the <string.h> C Standard Library or use any of the functions in this library in your code
 
 
 Compile your library:
